@@ -1,0 +1,5 @@
+git init - Initialize repository
+vi sample.txt - Create file
+git add sample.txt - Add file to repository
+git commit -m "Message goes here" - commit change in file with info about what it was
+git status - Check if there are changes in files which are untracked
