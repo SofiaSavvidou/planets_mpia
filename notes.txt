@@ -11,3 +11,5 @@ git diff HEAD~2 sample.txt - To see the second to last change
 git show HEAD sample.txt
 git checkout HEAD sample.txt - Revert to file before the last change
 git checkout frg342 sample.txt - Revert to file before the frg342 commit
+git rm sample.txt - Delete a file, it essentially is not shown and tracked anymore but one could do 
+git restore --staged sample.txt - to unstage the file 
