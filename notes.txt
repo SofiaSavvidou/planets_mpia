@@ -16,4 +16,5 @@ git restore --staged sample.txt - to unstage the file
 vi .gitignore - create file with files to be ignored by commits
 ** Could include wildcards e.g. *.out or ignore all except one !a.out  
 git add .gitignore - Then all included files are ignored and git status comes back clean
-git status --ignored - Shows the ignored files  
+git status --ignored - Shows the ignored files
+git pull - update repository locally from what it is online   
