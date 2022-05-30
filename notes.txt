@@ -9,3 +9,5 @@ git add new_dir
 git diff HEAD sample.txt - To see the last change in the file 
 git diff HEAD~2 sample.txt - To see the second to last change
 git show HEAD sample.txt
+git checkout HEAD sample.txt - Revert to file before the last change
+git checkout frg342 sample.txt - Revert to file before the frg342 commit
