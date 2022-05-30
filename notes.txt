@@ -12,4 +12,8 @@ git show HEAD sample.txt
 git checkout HEAD sample.txt - Revert to file before the last change
 git checkout frg342 sample.txt - Revert to file before the frg342 commit
 git rm sample.txt - Delete a file, it essentially is not shown and tracked anymore but one could do 
-git restore --staged sample.txt - to unstage the file 
+git restore --staged sample.txt - to unstage the file
+vi .gitignore - create file with files to be ignored by commits
+** Could include wildcards e.g. *.out or ignore all except one !a.out  
+git add .gitignore - Then all included files are ignored and git status comes back clean
+git status --ignored - Shows the ignored files  
