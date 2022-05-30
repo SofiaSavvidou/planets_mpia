@@ -3,3 +3,9 @@ vi sample.txt - Create file
 git add sample.txt - Add file to repository
 git commit -m "Message goes here" - commit change in file with info about what it was
 git status - Check if there are changes in files which are untracked
+** git does not track directories, so if you make a new one, add some files and then 
+git add new_dir
+** Don't forget to do git commit -m "**" !!!
+git diff HEAD sample.txt - To see the last change in the file 
+git diff HEAD~2 sample.txt - To see the second to last change
+git show HEAD sample.txt
